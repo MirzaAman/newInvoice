@@ -41,7 +41,7 @@ function PdfTemplate(props) {
 // discount
     const [openAirPopup2, setAirPopup2] = useState(false);
     const [Discount, setDiscount] = useState(0);
-    const [totalAmount, setTotalAmount] = useState(0);l
+    const [totalAmount, setTotalAmount] = useState(0);
 
     const addDiscount = () => {
         let trail = sum;
